@@ -1,0 +1,376 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestro primer mes 🤍</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Fuentes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+<!-- Fondo -->
+
+<div id="background"></div>
+
+
+
+<!-- ========================= -->
+<!-- PANTALLA 1 -->
+<!-- ========================= -->
+
+
+<section id="pantalla1" class="pantalla activa">
+
+
+    <h1 contenteditable="true">
+        Omgg cumplimos un mes YEIII 🎉🎊
+    </h1>
+
+
+    <p contenteditable="true">
+        Y para celebrarlo hice este petit regalo ya sabesh jejeuwu (ábrelo...)
+    </p>
+
+
+
+    <div id="sobre" onclick="abrirSobre()">
+
+
+        <div class="tapa"></div>
+
+
+        <div class="cuerpo"></div>
+
+
+        <div class="sello">
+            🤍
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- ========================= -->
+<!-- PANTALLA 2 -->
+<!-- ========================= -->
+
+
+<section id="pantalla2" class="pantalla">
+
+
+    <img 
+    id="muneco"
+    src="imagenes/munecopng"
+    alt="Muñeco">
+
+
+
+    
+
+
+
+    <h2 contenteditable="true">
+
+        ¿Me amas?
+
+    </h2>
+
+
+
+    <div class="botones">
+
+
+        <button onclick="mostrarPantalla(5)">
+
+            Sí 😳
+
+        </button>
+
+
+
+        <button onclick="mostrarPantalla(3)">
+
+            No 😥
+
+        </button>
+
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- ========================= -->
+<!-- PANTALLA 3 -->
+<!-- ========================= -->
+
+
+<section id="pantalla3" class="pantalla">
+
+
+    <img
+    id="muneco2"
+    src="imagenes/muneco.png"
+    alt="Muñeco">
+
+
+
+    
+
+
+
+    <h2 contenteditable="true">
+
+        Yo sé ke sí 🎣
+
+    </h2>
+
+
+
+    <div class="botones">
+
+
+        <button onclick="mostrarPantalla(4)">
+
+            Sí
+
+        </button>
+
+
+
+        <button onclick="mostrarPantalla(4)">
+
+            Sí
+
+        </button>
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- PANTALLA 4 -->
+<!-- ========================= -->
+
+
+<section id="pantalla4" class="pantalla">
+
+
+    <h2 contenteditable="true">
+
+        VES? Yo lo sabía 
+
+    </h2>
+
+
+
+    <div class="galeria">
+
+
+
+        <div>
+
+            <img id="foto1" src="imagenes/foto1.jpg">
+
+            <button onclick="cambiarImagen('foto1')">
+
+                
+
+            </button>
+
+        </div>
+
+
+
+
+        <div>
+
+            <img id="foto2" src="imagenes/foto2.jpg">
+
+            <button onclick="cambiarImagen('foto2')">
+
+                
+
+            </button>
+
+        </div>
+
+
+
+
+        <div>
+
+            <img id="foto3" src="imagenes/foto3.jpg">
+
+            <button onclick="cambiarImagen('foto3')">
+
+                
+
+            </button>
+
+        </div>
+
+
+
+
+        <div>
+
+            <img id="foto4" src="imagenes/foto4.jpg">
+
+            <button onclick="cambiarImagen('foto4')">
+
+                
+
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="miniCarta"
+    onclick="mostrarPantalla(5)">
+
+        💌
+
+    </div>
+
+
+
+    <p contenteditable="true">
+
+        Ahora sí...
+        Lee esa cartita.
+
+    </p>
+
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- PANTALLA 5 -->
+<!-- ========================= -->
+
+
+<section id="pantalla5" class="pantalla">
+
+    <div class="carta">
+
+        <h2 contenteditable="true">
+            Para mi kuchipu💗
+        </h2>
+
+        <p id="textoCarta" contenteditable="true">
+            No puedo creer ke ya vamos a cumplir un mes, estoy tan emocionada y feliz. En tan poco tiempo me has hecho la persona más feliz del mundo y te quiero agradecer por querer compartir tus días conmigo y supongo que el resto de tu vida también. Sin quererlo te convertiste en una de las personas más importantes de mi vida y no me quiero imaginar un futuro sin ti, porque eres tan lindo y dulce conmigo, que el solo pensamiento de que te vayas de mi lado hace que se me aprete el corazón y me entren ganas de llorar,porque ya no conozco, ya no imagino, ya no se me pasa ningún pensamiento en la cabeza de cómo sería un día sin ti. De cómo sería mi vida sin recibir tus hermosos cumplidos o tus super mega kul historias de cómo ganas en los juegos.
+Nico eres mi presente más bonito y el futuro que yo más quiero, quiero formar una familia contigo, quiero experimentar nuevas cosas a tu lado, quiero escucharte hablar por horas de cualquier cosa que te guste. Para mí compartir mi tiempo contigo es algo que me encanta, eres mi amor, mi inspiración, mi pensamiento, mi risa, mi calma, mi todo.
+Gracias a ti mis días ya no son tan aburridos, ahora todos los días tengo una razón para sonreír, tengo a alguien a quien amar y a quién contarle mis días y aunque no estemos juntos, compartir contigo así sea a través de una pantalla me hace muy feliz. Lamento no poder darte algo más bonito que está carta, pero creeme que la hice con mucho cariño.
+
+Es raro porque cada vez que te veo (así sea en una foto) o incluso cuando escucho tu voz se me acelera el corazón y pienso en qué tengo el novio más lindo  del mundo y me dan ganas de ir a correr hacia ti y abrazarte y darte todos los besos que tu quieras, poder hablar por horas, y todas esas cosas y yo sé que algún día lo lograremos y podremos estar juntos así sea por un día o unas horas,pero será el momento más feliz de toda mi vida.
+
+Eres mi gran amor,el dueño de mis pensamientos, mi alma, mi cuerpo, mis días, las canciones que escucho, la comida que como o incluso alguna peli que vea; porque en todo mi día estás tú y solamente tú.
+Me alegra haber podido encontrar un hombre tan lindo, amable, inteligente, gracioso y super mega pro y kul como tú,con esa manera tan dulce y gentil de querer a las personas.
+Gracias por compartir este mes conmigo y espero que sean muchos más.
+        </p>
+        <div class="firma" contenteditable="true">
+
+    Con amor, siempre tuya... 
+    <br>
+            ℳ
+        ───────────
+
+</div>
+
+    </div>
+
+
+    <div id="corazones"></div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- Selector oculto para imágenes -->
+
+
+<input
+
+type="file"
+
+id="selectorImagen"
+
+accept="image/*"
+
+style="display:none;"
+
+>
+
+
+
+
+
+<script src="script.js"></script>
+
+<script src="editor.js"></script>
+
+
+
+</body>
+
+</html>
+```
